@@ -1,4 +1,7 @@
 FROM node:8-alpine
+LABEL maintainer="fedor@borshev.com"
+
+LABEL com.datadoghq.ad.logs='[{"source": "nuxt", "service": "nuxt"}]'
 
 RUN apk update \
   && apk --no-cache add yarn
