@@ -1,4 +1,4 @@
-FROM node:8.16.1-alpine
+FROM node:12.14.0-alpine3.11
 LABEL maintainer="fedor@borshev.com"
 
 LABEL com.datadoghq.ad.logs='[{"source": "nuxt", "service": "nuxt"}]'
